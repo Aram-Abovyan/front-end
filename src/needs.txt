@@ -1,0 +1,25 @@
+1. Customer
+  1.1. job list
+     list item
+      a) id
+      b) type
+      c) description
+      d) price
+      e) specialist id
+      f) customer id
+  1.2. filter
+    a) type
+    b) price
+2. Specialist
+
+
+Actions
+spec
+1. add job
+2. delete
+3. edit
+4. filter
+
+Customer
+1. filter
+2. add customer id

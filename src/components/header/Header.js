@@ -8,10 +8,12 @@ const Header = () => {
   const [ registrationIsHidden, setRegistrationIsHidden] = useState(true);
   
   const handleClickLogin = () => {
+    if (!registrationIsHidden) setRegistrationIsHidden(!registrationIsHidden);
     setLoginIsHidden(!loginIsHidden);
   };
 
   const handleClickRegistration = () => {
+    if (!loginIsHidden) setLoginIsHidden(!loginIsHidden);
     setRegistrationIsHidden(!registrationIsHidden);
   };
 
